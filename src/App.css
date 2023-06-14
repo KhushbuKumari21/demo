@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.App.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.App-header {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+.dark-mode-toggle {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #555;
+}
+
+.App-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  flex: 1 1 300px;
+  margin: 23px;
+}
+
+section h2 {
+  font-size: 24px;
+
+}
+
+.Skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Skills li {
+  padding: 10px;
+  background-color: #f1f1f1;
+  color: #333;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.Skills li:hover {
+  background-color: #d1d1d1;
+}
+
+.Skills li.selected {
+  background-color: #333;
+  color: #fff;
+}
+
+.Projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Project {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.Project:hover {
+  background-color: #e1e1e1;
+}
+
+.Project h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.Project p {
+  margin-bottom: 10px;
+}
+
+.Project a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.Project a:hover {
+  background-color: #555;
+}
+
+.Contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Contact input,
+.Contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.Contact button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Contact button:hover {
+  background-color: #555;
+}
+
+.Stats p {
+  margin: 0;
+}
+
+.App-footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.scroll-to-top {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: #555;
+}
+/* Rest of the existing styles */
+
+.Quotes {
+  margin-top: 40px;
+}
+
+.Quote {
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.Quote p {
+  margin: 0;
+  font-size: 18px;
+  font-style: italic;
+}
+
+
